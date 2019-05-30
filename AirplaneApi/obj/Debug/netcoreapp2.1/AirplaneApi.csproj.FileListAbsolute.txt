@@ -1,0 +1,14 @@
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\bin\Debug\netcoreapp2.1\AirplaneApi.deps.json
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\bin\Debug\netcoreapp2.1\AirplaneApi.runtimeconfig.json
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\bin\Debug\netcoreapp2.1\AirplaneApi.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\bin\Debug\netcoreapp2.1\AirplaneApi.dll
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\bin\Debug\netcoreapp2.1\AirplaneApi.pdb
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\obj\Debug\netcoreapp2.1\AirplaneApi.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\obj\Debug\netcoreapp2.1\AirplaneApi.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\obj\Debug\netcoreapp2.1\AirplaneApi.RazorAssemblyInfo.cache
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\obj\Debug\netcoreapp2.1\AirplaneApi.RazorAssemblyInfo.cs
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\obj\Debug\netcoreapp2.1\AirplaneApi.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\obj\Debug\netcoreapp2.1\AirplaneApi.AssemblyInfo.cs
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\obj\Debug\netcoreapp2.1\AirplaneApi.RazorTargetAssemblyInfo.cache
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\obj\Debug\netcoreapp2.1\AirplaneApi.dll
+C:\Users\Dell\source\repos\AirplaneApi\AirplaneApi\obj\Debug\netcoreapp2.1\AirplaneApi.pdb
