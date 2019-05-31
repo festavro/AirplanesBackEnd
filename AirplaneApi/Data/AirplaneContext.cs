@@ -12,6 +12,9 @@ namespace AirplaneApi.Data
         public AirplaneContext(DbContextOptions<AirplaneContext> options) : base(options)
         {
         }
+        public AirplaneContext()
+        {
+        }
 
         public DbSet<Airplane> Airplanes{ get; set; }
 

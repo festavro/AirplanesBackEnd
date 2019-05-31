@@ -25,15 +25,14 @@ namespace AirplaneApi.Controllers
         [HttpGet]
         public IEnumerable<Airplane> GetAirplanes()
         {
-            Console.WriteLine("Hey");
             return _context.Airplanes;
         }
 
         // GET: api/Airplanes/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetAirplane([FromRoute] int id)
+        public async Task<ActionResult<Airplane>> GetAirplane([FromRoute] int id)
         {
-            if (!ModelState.IsValid)
+            if (!ModelState.IsValid || id<0)
             {
                 return BadRequest(ModelState);
             }
@@ -50,9 +49,9 @@ namespace AirplaneApi.Controllers
 
         // PUT: api/Airplanes/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutAirplane([FromRoute] int id, [FromBody] Airplane airplane)
+        public async Task<ActionResult<Airplane>> PutAirplane([FromRoute] int id, [FromBody] Airplane airplane)
         {
-            if (!ModelState.IsValid)
+            if (!ModelState.IsValid || id<0)
             {
                 return BadRequest(ModelState);
             }
@@ -100,9 +99,9 @@ namespace AirplaneApi.Controllers
 
         // DELETE: api/Airplanes/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAirplane([FromRoute] int id)
+        public async Task<ActionResult<Airplane>> DeleteAirplane([FromRoute] int id)
         {
-            if (!ModelState.IsValid)
+            if (!ModelState.IsValid || id<0)
             {
                 return BadRequest(ModelState);
             }
